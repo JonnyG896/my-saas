@@ -1,12 +1,15 @@
 import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
-  const { email, password } = await req.json();
+  const body = await req.json();
 
-  // TEMP: replace with real API call later
+  console.log("LOGIN BODY:", body);
+
+  const { email, password } = body;
+
   if (!email || !password) {
     return NextResponse.json(
-      { error: "Invalid credentials" },
+      { error: "Invalid email or password" },
       { status: 401 }
     );
   }
