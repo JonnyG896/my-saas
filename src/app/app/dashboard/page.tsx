@@ -1,6 +1,6 @@
-import { Page } from "@/components/layout/Page";
-import { PageHeader } from "@/components/layout/PageHeader";
-import { Card } from "@/components/layout/Card";
+import { Page } from "@/components/layout/page";
+import { PageHeader } from "@/components/layout/page-header";
+import { Card } from "@/components/layout/card";
 
 export default function DashboardPage() {
   return (

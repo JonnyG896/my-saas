@@ -1,6 +1,6 @@
-import { Page } from "@/components/layout/Page";
-import { PageHeader } from "@/components/layout/PageHeader";
-import { Card } from "@/components/layout/Card";
+import { Page } from "@/components/layout/page";
+import { PageHeader } from "@/components/layout/page-header";
+import { Card } from "@/components/layout/card";
 import { apiFetch } from "@/lib/api";
 import type { User } from "@/types/user";
 import Link from "next/link";
